@@ -15,5 +15,8 @@
     "astro": "^2.5.0",
     "sass": "^1.62.1",
     "solid-js": "^1.4.3"
+  },
+  "devDependencies": {
+    "vitest": "^0.31.1"
   }
 }
