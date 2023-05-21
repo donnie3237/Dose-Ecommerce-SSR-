@@ -2,14 +2,21 @@
 
 ---
 <div class="footer">
-    <p>copyright 2023</p>
+    <div class="madeby">
+        <p>astro</p>
+        <p>react+redux</p>
+    </div>
 </div>
 
-<style>
+<style lang="scss">
     .footer{
         background-color: black;
         width: 100vw;
-        height: 40px;
+        height: 60px;
         color: white;
+        flex-direction: column;
+        .madeby{
+            display: flex;
+        }
     }
 </style>
